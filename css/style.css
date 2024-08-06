@@ -262,7 +262,7 @@ h1{
     } */
      
     body{
-        width: 100%;
+        width: 95%;
         height: 100vh;
         background-color: rgb(0, 0, 0);
         
@@ -296,6 +296,8 @@ h1{
         background-image: url(https://i.pinimg.com/736x/b8/6b/c2/b86bc2d435a63ff3c3199a8db558def1.jpg);
         justify-content: center;
         align-items: center;
+        content-visibility: auto;
+        position: sticky;
        
     }
     
