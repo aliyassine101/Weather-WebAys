@@ -296,8 +296,9 @@ h1{
         background-image: url(https://i.pinimg.com/736x/b8/6b/c2/b86bc2d435a63ff3c3199a8db558def1.jpg);
         justify-content: center;
         align-items: center;
-        content-visibility: auto;
+        
         position: sticky;
+       content-visibility: auto;
        
     }
     
@@ -364,19 +365,19 @@ h1{
     .block1{
         color: #7D7878;
         font-family: sans-serif;
-        font-size: 22px;
+        font-size: 114%;
         font-weight: 600;
         position: relative;
-        top: 24%;
+        top: 11%;
        
     }
     .block2{
         color: #7D7878;
         font-family: sans-serif;
-        font-size: 22px;
+        font-size: 122%;
         font-weight: 600;
         position: relative;
-        top: 24%;
+        top: 13%;
 
        
     }
@@ -384,7 +385,7 @@ h1{
     .blockvalue1{
        
         color: #F5F5F5;
-        font-size: 26px;
+        font-size: 133%;
         font-weight: 600;
         position: relative;
         top: -26%;
@@ -393,15 +394,15 @@ h1{
     .blockvalue2{
     
         color: #F5F5F5;
-        font-size: 26px;
+        font-size: 127%;
         font-weight: 600;
         position: relative;
-        top: -26%;
+        top: -24%;
     }
     .blockvalue3{
       
         color: #F5F5F5;
-        font-size: 26px;
+        font-size: 145%;
         font-weight: 600;
         position: relative;
         top: -23%;
@@ -483,8 +484,8 @@ h1{
         display: flex;
         /* background-color: red; */
         position: relative;
-        top: -30%;
-        left: 42%;
+        top: -44%;
+        left: 40%;
         width: 100%;
      }
     
@@ -494,8 +495,8 @@ h1{
     
         /* height: 55%; */
         position: relative;
-        top: -25%;
-        left: 25%;
+        top: -42%;
+        left: 23%;
      }
     
      .airdeg{
@@ -522,8 +523,8 @@ h1{
      }
     
      .blocks{
-        width: 41%;
-        height: 9vh;
+        width: 28%;
+        height: 36%;
         background-color: rgb(0, 0, 0); border-radius: 10px;
         display: flex;
         flex-direction: column;
