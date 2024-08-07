@@ -14,7 +14,7 @@ body{
 
 } */
 
-@media only screen and (max-width: 2000px) and (min-width: 700px ){
+@media only screen and (max-width: 2000px ) and (min-width: 700px ) and (max-height: 450px){
 
     body{
         /* background-color: yellow; */
@@ -231,7 +231,7 @@ h1{
 
     /* height: 55%; */
     position: relative;
-    top: -135px;
+    top: -140px;
     left: 77%;
  }
 
@@ -267,7 +267,262 @@ h1{
  }
 }
 
- @media only screen and (min-width: 0px)and (max-width: 400px) {
+
+@media only screen and (max-width: 2000px ) and (min-width: 700px ) and (min-height: 451px){
+
+    body{
+        /* background-color: yellow; */
+        background-image: url(https://wallpaper.forfun.com/fetch/ee/ee26dddc94efa54b68bccf9b53687290.jpeg);
+    }
+.content{
+    margin: auto;
+    width: 59%;
+    height: 75%;
+    position: relative;
+    left: -1%;
+    top: 10%;
+    background-color: #fbf3f3;
+    box-shadow: 0px 0px 20px #000000CC;
+    display: flex;
+    flex-direction: row;
+    border-radius: 10px;
+    flex-wrap: wrap;
+    /* background-color: #FFFFFF; */
+    /* background-image: url(https://media.istockphoto.com/id/1327586819/video/amazing-nature-cloudscape-time-lapse-storm-clouds-at-sunset-or-sunrise-time-horrible-weather.jpg?s=640x640&k=20&c=wf0HaNa9DleskmOnfxNC8N_T1-x-sm2_XUrD4SksBK8=); */
+    background-repeat: no-repeat;
+   
+    /* background-image: url(https://png.pngtree.com/background/20230612/original/pngtree-drawing-of-lightning-and-clouds-picture-image_3173772.jpg); */
+    justify-content: center;
+    align-items: center;
+    background-image: url('https://www.thoughtco.com/thmb/ns8iAXaXV-PxWrdpXGQr6sETzb8=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/thermometer-sun-high-degres--hot-summer-day--high-summer-temperatures-1010691618-2a5ca45876424dffbef441d73ae896b8.jpg');
+   
+}
+
+.item1{
+
+    color: white;
+    width: 86%;
+    height: 40%;
+    background-color: #00000066;
+    border-radius: 10px;
+    box-shadow: 0px 0px 4px 2px #7D7878;
+    position: relative;
+    top:1%;
+}
+
+
+.item2{
+    
+    width: 52%;
+    height: 44%;
+  
+    margin-right: 3%;
+   
+    background: #00000066;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    border-radius: 10px;
+    box-shadow: 0px 0px 4px 2px #7D7878;
+    position: relative;
+    top: -2%;
+
+}
+
+
+
+.item3{
+    width: 45%;
+    height: 44%;
+   
+    background: #00000066;
+    border-radius: 10px;
+    box-shadow: 0px 0px 4px 2px #7D7878;
+    position: relative;
+    top: -2%;
+    display: flex;
+}
+
+
+h1{
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    unicode-bidi: isolate;
+}
+
+.block1{
+    color: #7D7878;
+    font-family: sans-serif;
+    font-size: 17px;
+    font-weight: 600;
+   margin-bottom: -7%;
+   
+}
+.block2{
+    color: #7D7878;
+    font-family: sans-serif;
+    font-size: 17px;
+    font-weight: 600;
+    margin-bottom: -5%;
+   
+}
+
+.blockvalue1{
+   
+    color: #F5F5F5;
+    font-size: 18px;
+    font-weight: 600;
+   
+}
+.blockvalue2{
+
+    color: #F5F5F5;
+    font-size: 18px;
+    font-weight: 600;
+    top: 6px;
+}
+.blockvalue3{
+  
+    color: #F5F5F5;
+    font-size: 18px;
+    font-weight: 600;
+  
+}
+
+.city{
+
+    color: #FF006B;
+    font-size: 26px;
+    position: relative;
+    top: 8px;
+    left: 6%;
+    font-weight: 700;
+    font-family: sans-serif;
+}
+
+.weatherdetails{
+
+    height: 29px;
+   
+    gap: 0px;
+    opacity: 0px;
+    font-family: Work Sans;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 29.33px;
+    text-align: left;
+    /* background: #cc1313; */
+    position: relative;
+    left: 1%;
+    top: 3%;
+    color: #F5F5F5;font-size: 16px;font-family: sans-serif;
+    width: 100%;
+
+}
+ .forecast{
+
+    width: 100%;
+    position: relative;
+    left: 56%;
+    top: -3.5%;
+    font-size: 16px;
+    font-family: sans-serif; 
+    font-weight: 600;
+    color: #F5F5F5;
+ }
+
+ .temp{
+
+    color: #FFC801;
+    font-size: 42px;
+    font-weight: 600;
+    position: relative;
+    left: 6%;
+    top: -53px;
+    margin-bottom: 2%;
+    font-family: sans-serif;
+ }
+
+ .overcast{
+    font-size: 15px;
+    position: relative;
+    top: -1px;
+    left: 5.5%;
+    color: #F5F5F5;
+    font-family: sans-serif;
+ }
+
+ .divdata{
+    display: flex;
+    flex-direction: row;
+ }
+
+ .sun{
+
+    font-size: 15px;
+    font-family: sans-serif;
+ }
+
+ .divsun{
+    display: flex;
+    /* background-color: red; */
+    position: relative;
+    top: -145px;
+    left: 79%;
+    width: 15%;
+ }
+
+ .divairdeg{
+    /* background-color: red;  */
+    width: 20%;
+
+    /* height: 55%; */
+    position: relative;
+    top: -140px;
+    left: 77%;
+ }
+
+ .airdeg{
+
+    position: relative;
+    left: 13%;
+    font-family: sans-serif;
+    font-size: 14px;
+ }
+
+ .day1{
+
+    font-weight: 600;
+    margin-right: 11%;
+    /* margin-left: 8%; */
+    color: #373434;
+    font-family: sans-serif;
+    font-size: 13px;
+    position: relative;
+    left: 8%;
+    width: 8%;
+    top: 5px;
+ }
+
+ .blocks{
+    background-color: rgb(0, 0, 0);width: 31%; height: 13vh; border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+ }
+}
+
+
+ @media only screen and (min-width: 0px)and (max-width: 400px) and (min-height:660px){
     /* body {
       background-color: lightblue;
     } */
@@ -328,7 +583,7 @@ h1{
     
     .item2{
         
-        width: 100%;
+        width: 98%;
         height: 31%;
       
         /* margin-right: 3%; */
@@ -343,14 +598,14 @@ h1{
         box-shadow: 0px 0px 4px 2px #7D7878;
         position: relative;
         top: -3%;
-        left: 2%;
+
     
     }
     
     
     
     .item3{
-        width: 92%;
+        width: 98%;
         height: 18%;
        
         background: #00000066;
@@ -551,8 +806,9 @@ h1{
      }
   }
 
+
   
- @media only screen and  (min-width: 400px ) and (max-width: 700px){
+ @media only screen and (min-width: 0px)and (max-width: 400px) and (max-height:659px){
     /* body {
       background-color: lightblue;
     } */
@@ -613,7 +869,7 @@ h1{
     
     .item2{
         
-        width: 100%;
+        width: 98%;
         height: 31%;
       
         /* margin-right: 3%; */
@@ -628,14 +884,299 @@ h1{
         box-shadow: 0px 0px 4px 2px #7D7878;
         position: relative;
         top: -3%;
-        left: 2%;
+
     
     }
     
     
     
     .item3{
-        width: 92%;
+        width: 98%;
+        height: 18%;
+       
+        background: #00000066;
+        border-radius: 10px;
+        box-shadow: 0px 0px 4px 2px #7D7878;
+        position: relative;
+        top: -1%;
+        display: flex;
+    }
+    
+    
+    h1{
+        display: block;
+        font-size: 1.5em;
+        margin-block-start: 0.83em;
+        margin-block-end: 0.83em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+        font-weight: bold;
+        unicode-bidi: isolate;
+    }
+    
+    .block1{
+        color: #7D7878;
+        font-family: sans-serif;
+        font-size: 90%;
+        font-weight: 600;
+        position: relative;
+        top: 11%;
+        margin-bottom: 20%;
+        width: fit-content;
+       
+    }
+    .block2{
+        color: #7D7878;
+        font-family: sans-serif;
+        font-size: 90%;
+        font-weight: 600;
+        position: relative;
+        top: 13%;
+        margin-bottom: 20%;
+
+       
+    }
+    
+    .blockvalue1{
+       
+        color: #F5F5F5;
+        font-size: 106%;
+        font-weight: 600;
+        position: relative;
+        top: -26%;
+        margin-top: 22%;
+     
+    }
+    .blockvalue2{
+    
+        color: #F5F5F5;
+        font-size: 106%;
+        font-weight: 600;
+        position: relative;
+        top: -24%;
+        margin-top: 22%;
+    }
+    .blockvalue3{
+      
+        color: #F5F5F5;
+        font-size: 106%;
+        font-weight: 600;
+        position: relative;
+        top: -23%;
+        margin-top: 22%;
+    }
+    
+    .city{
+    
+        color: #FF006B;
+        font-size: 30px;
+        position: relative;
+        top: -2px;
+        left: 4%;
+        font-weight: 700;
+        font-family: sans-serif;
+    }
+    
+    .weatherdetails{
+    
+        height: 29px;
+       
+        gap: 0px;
+        opacity: 0px;
+        font-weight: 600;
+        line-height: 29.33px;
+        text-align: left;
+        /* background: #cc1313; */
+        position: relative;
+        left: 3%;
+        top: 4%;
+        color: #9da2cb;font-size: 20px;font-family: sans-serif;
+        width: 100%;
+
+    
+    }
+     .forecast{
+    
+        width: 100%;
+        position: relative;
+        left: 4%;
+        top: 34.5%;
+        font-size: 16px;
+        font-family: sans-serif; 
+        font-weight: 600;
+        color: #9da2cb;
+     }
+    
+     .temp{
+    
+        color: #FFC801;
+        font-size: 42px;
+        font-weight: 600;
+        position: relative;
+        left: 6%;
+        top: -45px;
+        font-family: sans-serif;
+     }
+    
+     .overcast{
+        font-size: 15px;
+        position: relative;
+        top: 9px;
+        left: 5.5%;
+        color: #F5F5F5;
+        font-family: sans-serif;
+     }
+    
+     .divdata{
+        display: flex;
+        flex-direction: row;
+     }
+    
+     .sun{
+    
+        font-size: 15px;
+        font-family: sans-serif;
+     }
+    
+     .divsun{
+        display: flex;
+        /* background-color: red; */
+        position: relative;
+        top: -73%;
+        left: 63%;
+        width: 100%;
+     }
+    
+     .divairdeg{
+        /* background-color: red;  */
+        width: 100%;
+    
+        /* height: 55%; */
+        position: relative;
+        top: -67%;
+        left: 30%;
+     }
+    
+     .airdeg{
+    
+        position: relative;
+        left: 33%;
+        font-family: sans-serif;
+        font-size: 15px;
+        width: 40%;
+     }
+    
+     .day1{
+    
+        font-weight: 600;
+        margin-right: 11%;
+        /* margin-left: 8%; */
+        color: #373434;
+        font-family: sans-serif;
+        font-size: 12px;
+        position: relative;
+        left: 1%;
+        width: 8%;
+        top: 6px;
+     }
+    
+     .blocks{
+        width: 28%;
+        height: 36%;
+        background-color: rgb(0, 0, 0); border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    
+     }
+  }
+
+  
+ @media only screen and  (min-width: 400px ) and (max-width: 700px)and (min-height:660px) {
+    /* body {
+      background-color: lightblue;
+    } */
+     
+    body{
+        width: 95%;
+        height: 100vh;
+        background-color: rgb(0, 0, 0);
+        
+        
+    }
+    /* .container{
+        margin-top: auto;
+        width: 98%;
+        height: 100vh;
+      
+        overflow:auto;
+        background-image: url(https://wallpapers.com/images/hd/yellow-hd-bokeh-pattern-919v5bua8ig5jzk9.jpg);
+    
+    } */
+    
+    .content{
+       
+        width: 100%;
+        height: 100%; 
+        position: relative;
+        background-color: #fbf3f3;
+        box-shadow: 0px 0px 20px #000000CC;
+        display: flex;
+        flex-direction: row;
+        border-radius: 10px;
+        flex-wrap: wrap;
+        /* background-color: #d62323; */
+        /* background-image: url(https://media.istockphoto.com/id/1327586819/video/amazing-nature-cloudscape-time-lapse-storm-clouds-at-sunset-or-sunrise-time-horrible-weather.jpg?s=640x640&k=20&c=wf0HaNa9DleskmOnfxNC8N_T1-x-sm2_XUrD4SksBK8=); */
+        background-repeat: no-repeat;
+       
+        background-image: url(https://i.pinimg.com/736x/b8/6b/c2/b86bc2d435a63ff3c3199a8db558def1.jpg);
+        justify-content: center;
+        align-items: center;
+        
+        position: sticky;
+       content-visibility: auto;
+       
+    }
+    
+    .item1{
+    
+        color: white;
+        width: 94%;
+        height: 30%;
+        background-color: #00000066;
+        border-radius: 10px;
+        box-shadow: 0px 0px 4px 2px #7D7878;
+        position: relative;
+        top: 35px;
+    }
+    
+    
+    .item2{
+        
+        width: 98%;
+        height: 31%;
+      
+        /* margin-right: 3%; */
+       
+        background: #00000066;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-wrap: wrap;
+        border-radius: 10px;
+        box-shadow: 0px 0px 4px 2px #7D7878;
+        position: relative;
+        top: -3%;
+       
+    
+    }
+    
+    
+    
+    .item3{
+        width: 98%;
         height: 18%;
        
         background: #00000066;
@@ -799,6 +1340,292 @@ h1{
         position: relative;
         top: -47%;
         left: 23%;
+     }
+    
+     .airdeg{
+    
+        position: relative;
+        left: 33%;
+        font-family: sans-serif;
+        font-size: 17px;
+        width: 40%;
+     }
+    
+     .day1{
+    
+        font-weight: 600;
+        margin-right: 11%;
+        /* margin-left: 8%; */
+        color: #373434;
+        font-family: sans-serif;
+        font-size: 12px;
+        position: relative;
+        left: 1%;
+        width: 8%;
+        top: 6px;
+     }
+    
+     .blocks{
+        width: 28%;
+        height: 36%;
+        background-color: rgb(0, 0, 0); border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    
+     }
+  }
+
+
+  
+ @media only screen and  (min-width: 400px ) and (max-width: 700px)and (max-height:659px) {
+    /* body {
+      background-color: lightblue;
+    } */
+     
+    body{
+        width: 95%;
+        height: 100vh;
+        background-color: rgb(0, 0, 0);
+        
+        
+    }
+    /* .container{
+        margin-top: auto;
+        width: 98%;
+        height: 100vh;
+      
+        overflow:auto;
+        background-image: url(https://wallpapers.com/images/hd/yellow-hd-bokeh-pattern-919v5bua8ig5jzk9.jpg);
+    
+    } */
+    
+    .content{
+       
+        width: 100%;
+        height: 100%; 
+        position: relative;
+        background-color: #fbf3f3;
+        box-shadow: 0px 0px 20px #000000CC;
+        display: flex;
+        flex-direction: row;
+        border-radius: 10px;
+        flex-wrap: wrap;
+        /* background-color: #d62323; */
+        /* background-image: url(https://media.istockphoto.com/id/1327586819/video/amazing-nature-cloudscape-time-lapse-storm-clouds-at-sunset-or-sunrise-time-horrible-weather.jpg?s=640x640&k=20&c=wf0HaNa9DleskmOnfxNC8N_T1-x-sm2_XUrD4SksBK8=); */
+        background-repeat: no-repeat;
+       
+        background-image: url(https://i.pinimg.com/736x/b8/6b/c2/b86bc2d435a63ff3c3199a8db558def1.jpg);
+        justify-content: center;
+        align-items: center;
+        
+        position: sticky;
+       content-visibility: auto;
+       
+    }
+    
+    .item1{
+    
+        color: white;
+        width: 94%;
+        height: 30%;
+        background-color: #00000066;
+        border-radius: 10px;
+        box-shadow: 0px 0px 4px 2px #7D7878;
+        position: relative;
+        top: 35px;
+    }
+    
+    
+    .item2{
+        
+        width: 98%;
+        height: 31%;
+      
+        /* margin-right: 3%; */
+       
+        background: #00000066;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-wrap: wrap;
+        border-radius: 10px;
+        box-shadow: 0px 0px 4px 2px #7D7878;
+        position: relative;
+        top: -3%;
+       
+    
+    }
+    
+    
+    
+    .item3{
+        width: 98%;
+        height: 18%;
+       
+        background: #00000066;
+        border-radius: 10px;
+        box-shadow: 0px 0px 4px 2px #7D7878;
+        position: relative;
+        top: -1%;
+        display: flex;
+    }
+    
+    
+    h1{
+        display: block;
+        font-size: 1.5em;
+        margin-block-start: 0.83em;
+        margin-block-end: 0.83em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+        font-weight: bold;
+        unicode-bidi: isolate;
+    }
+    
+    .block1{
+        color: #7D7878;
+        font-family: sans-serif;
+        font-size: 105%;
+        font-weight: 600;
+        position: relative;
+        top: 11%;
+        margin-bottom: 2%;
+        width: fit-content;
+       
+    }
+    .block2{
+        color: #7D7878;
+        font-family: sans-serif;
+        font-size: 105%;
+        font-weight: 600;
+        position: relative;
+        top: 13%;
+        margin-bottom: 2%;
+
+       
+    }
+    
+    .blockvalue1{
+       
+        color: #F5F5F5;
+        font-size: 106%;
+        font-weight: 600;
+        position: relative;
+        top: -26%;
+        margin-top: 22%;
+     
+    }
+    .blockvalue2{
+    
+        color: #F5F5F5;
+        font-size: 106%;
+        font-weight: 600;
+        position: relative;
+        top: -24%;
+        margin-top: 22%;
+    }
+    .blockvalue3{
+      
+        color: #F5F5F5;
+        font-size: 106%;
+        font-weight: 600;
+        position: relative;
+        top: -23%;
+        margin-top: 22%;
+    }
+    
+    .city{
+    
+        color: #FF006B;
+        font-size: 30px;
+        position: relative;
+        top: -2px;
+        left: 4%;
+        font-weight: 700;
+        font-family: sans-serif;
+    }
+    
+    .weatherdetails{
+    
+        height: 29px;
+       
+        gap: 0px;
+        opacity: 0px;
+        font-weight: 600;
+        line-height: 29.33px;
+        text-align: left;
+        /* background: #cc1313; */
+        position: relative;
+        left: 3%;
+        top: 4%;
+        color: #9da2cb;font-size: 20px;font-family: sans-serif;
+        width: 100%;
+
+    
+    }
+     .forecast{
+    
+        width: 100%;
+        position: relative;
+        left: 4%;
+        top: 34.5%;
+        font-size: 16px;
+        font-family: sans-serif; 
+        font-weight: 600;
+        color: #9da2cb;
+     }
+    
+     .temp{
+    
+        color: #FFC801;
+        font-size: 42px;
+        font-weight: 600;
+        position: relative;
+        left: 6%;
+        top: -45px;
+        font-family: sans-serif;
+     }
+    
+     .overcast{
+        font-size: 15px;
+        position: relative;
+        top: 9px;
+        left: 5.5%;
+        color: #F5F5F5;
+        font-family: sans-serif;
+     }
+    
+     .divdata{
+        display: flex;
+        flex-direction: row;
+     }
+    
+     .sun{
+    
+        font-size: 17px;
+        font-family: sans-serif;
+     }
+    
+     .divsun{
+        display: flex;
+        /* background-color: red; */
+        position: relative;
+        top: -72%;
+        left: 61%;
+        width: 100%;
+     }
+    
+     .divairdeg{
+        /* background-color: red;  */
+        width: 100%;
+    
+        /* height: 55%; */
+        position: relative;
+        top: -65%;
+        left: 28%;
      }
     
      .airdeg{
