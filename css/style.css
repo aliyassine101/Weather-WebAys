@@ -48,19 +48,19 @@ body{
 
     color: white;
     width: 86%;
-    height: 30%;
+    height: 40%;
     background-color: #00000066;
     border-radius: 10px;
     box-shadow: 0px 0px 4px 2px #7D7878;
     position: relative;
-    top: 35px;
+    top:1%;
 }
 
 
 .item2{
     
     width: 38%;
-    height: 35%;
+    height: 44%;
   
     margin-right: 3%;
    
@@ -73,7 +73,7 @@ body{
     border-radius: 10px;
     box-shadow: 0px 0px 4px 2px #7D7878;
     position: relative;
-    top: -44px;
+    top: -2%;
 
 }
 
@@ -81,13 +81,13 @@ body{
 
 .item3{
     width: 45%;
-    height: 35%;
+    height: 44%;
    
     background: #00000066;
     border-radius: 10px;
     box-shadow: 0px 0px 4px 2px #7D7878;
     position: relative;
-    top: -44px;
+    top: -2%;
     display: flex;
 }
 
@@ -108,7 +108,7 @@ h1{
     font-family: sans-serif;
     font-size: 10px;
     font-weight: 600;
-    top: 8px;
+   margin-bottom: -5%;
    
 }
 .block2{
@@ -116,6 +116,7 @@ h1{
     font-family: sans-serif;
     font-size: 10px;
     font-weight: 600;
+    margin-bottom: -5%;
    
 }
 
@@ -166,7 +167,7 @@ h1{
     /* background: #cc1313; */
     position: relative;
     left: 7%;
-    top: 35px;
+    top: 3%;
     color: #F5F5F5;font-size: 16px;font-family: sans-serif;
     width: 100%;
 
@@ -176,7 +177,7 @@ h1{
     width: 100%;
     position: relative;
     left: 48%;
-    top: -24px;
+    top: -3.5%;
     font-size: 16px;
     font-family: sans-serif; 
     font-weight: 600;
@@ -190,14 +191,15 @@ h1{
     font-weight: 600;
     position: relative;
     left: 6%;
-    top: -45px;
+    top: -53px;
+    margin-bottom: 2%;
     font-family: sans-serif;
  }
 
  .overcast{
     font-size: 15px;
     position: relative;
-    top: 9px;
+    top: -1px;
     left: 5.5%;
     color: #F5F5F5;
     font-family: sans-serif;
