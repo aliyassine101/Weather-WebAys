@@ -14,12 +14,19 @@ body{
 
 } */
 
+@media only screen and (max-width: 2000px) and (min-width: 700px ){
+
+    body{
+        /* background-color: yellow; */
+        background-image: url(https://wallpaper.forfun.com/fetch/ee/ee26dddc94efa54b68bccf9b53687290.jpeg);
+    }
 .content{
     margin: auto;
-    width: 61%;
+    width: 59%;
     height: 75%;
     position: relative;
-    top: 11%;
+    left: -1%;
+    top: 10%;
     background-color: #fbf3f3;
     box-shadow: 0px 0px 20px #000000CC;
     display: flex;
@@ -30,9 +37,10 @@ body{
     /* background-image: url(https://media.istockphoto.com/id/1327586819/video/amazing-nature-cloudscape-time-lapse-storm-clouds-at-sunset-or-sunrise-time-horrible-weather.jpg?s=640x640&k=20&c=wf0HaNa9DleskmOnfxNC8N_T1-x-sm2_XUrD4SksBK8=); */
     background-repeat: no-repeat;
    
-    background-image: url(https://png.pngtree.com/background/20230612/original/pngtree-drawing-of-lightning-and-clouds-picture-image_3173772.jpg);
+    /* background-image: url(https://png.pngtree.com/background/20230612/original/pngtree-drawing-of-lightning-and-clouds-picture-image_3173772.jpg); */
     justify-content: center;
     align-items: center;
+    background-image: url('https://www.thoughtco.com/thmb/ns8iAXaXV-PxWrdpXGQr6sETzb8=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/thermometer-sun-high-degres--hot-summer-day--high-summer-temperatures-1010691618-2a5ca45876424dffbef441d73ae896b8.jpg');
    
 }
 
@@ -255,8 +263,9 @@ h1{
     align-items: center;
 
  }
+}
 
- @media only screen and (max-width: 400px) {
+ @media only screen and (min-width: 0px)and (max-width: 400px) {
     /* body {
       background-color: lightblue;
     } */
@@ -541,7 +550,7 @@ h1{
   }
 
   
- @media only screen and (min-width: 400px ) {
+ @media only screen and  (min-width: 400px ) and (max-width: 700px){
     /* body {
       background-color: lightblue;
     } */
