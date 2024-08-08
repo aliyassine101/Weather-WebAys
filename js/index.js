@@ -78,7 +78,7 @@ async function display(latitude,longitude){
     feelstxt.textContent='Feels Like';
     feelstxt.setAttribute('class','block1');
     let feelsvalue=document.createElement('p');   
-    feelsvalue.textContent=data.list[0].main.feels_like+"°";
+    feelsvalue.textContent=Math.round(data.list[0].main.feels_like-273.15)+"°";
     feelsvalue.setAttribute('class','blockvalue1');
     block1.appendChild(feelstxt);
     block1.appendChild(feelsvalue);
