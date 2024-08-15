@@ -1,6 +1,6 @@
 
-body{
-    overflow: hidden;
+body,html{
+    overflow-x: hidden;
     width: 100%;
     height: 100vh;
 }
@@ -563,8 +563,7 @@ h1{
         justify-content: center;
         align-items: center;
         
-        position: sticky;
-       content-visibility: auto;
+        
        
     }
     
@@ -848,9 +847,7 @@ h1{
         background-image: url(https://i.pinimg.com/736x/b8/6b/c2/b86bc2d435a63ff3c3199a8db558def1.jpg);
         justify-content: center;
         align-items: center;
-        
-        position: sticky;
-       content-visibility: auto;
+       
        
     }
     
@@ -1134,8 +1131,6 @@ h1{
         justify-content: center;
         align-items: center;
         
-        position: sticky;
-       content-visibility: auto;
        
     }
     
@@ -1423,8 +1418,7 @@ h1{
         justify-content: center;
         align-items: center;
         
-        position: sticky;
-       content-visibility: auto;
+        
        
     }
     
@@ -1716,8 +1710,7 @@ h1{
         justify-content: center;
         align-items: center;
         
-        position: sticky;
-       content-visibility: auto;
+       
        
     }
     
